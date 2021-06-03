@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+    <header class="se">
+        <p><b>KoolGames</b></p>
+        <p style="right: 60px; position: absolute;"><img src="img/gamepad.png" width="100%"></p>
+    </header>
+
+    <section class="flex">
+        <script type="text/javascript" src="js/calc.js"></script>
+        <div class="content">
+            <form>
+                <p>
+                    <input type="text" id="asch">X<sup> 2</sup> +
+                    <input type="text" id="bsch">X +
+                    <input type="text" id="csch"> = 0
+
+                </p>
+                <p>
+                    <button onclick="kvad('asch','bsch','csch')" type="button">Считать</button>
+                </p>
+            </form>
+            <p>
+                Lock
+            </p>
+        </div>
+
+        <div class="sidebar">
+            <a href="index.html"> Главная </a>
+            <a href="contacts.html"> Контакты </a>
+            <a href="info.html"> Информация </a>
+            <a href="kvadrat.html" class="active"> Калькулятор </a>
+        </div>
+    </section>
+
+    <footer class="se">
+        <p><b>KoolGames</b></p>
+    </footer>
+
+
+</body>
+
+</html>
